@@ -8,7 +8,7 @@ class Courses(models.Model):
     
     def __str__(self) :
         
-        return f"{self.course_name}  {self.course_id}"
+        return f"{self.course_id}  {self.course_name}"
  
 
 
